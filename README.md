@@ -42,12 +42,11 @@ XGBoost scored highest during cross-validation, but **Logistic Regression genera
 - Final F1: `0.6056`
 
 ![Confusion Matrix of final selected logestic model](images/confusion_matrix.png)
-![Feature importance of final selected logestic model](images/Feature_importance.png)
 
 > The threshold was intentionally lowered from the default 0.5 to 0.35 to maximize recall — in a retention context, catching a churner is worth far more than avoiding a false alarm.
 
 ---
-
+![Feature importance of final selected logestic model](images/Feature_importance.png)
 ## 🧪 ML Pipeline
 
 | Step | Description |
